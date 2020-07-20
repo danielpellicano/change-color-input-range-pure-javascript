@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.inputs {
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.inputs:first-child {
+  background: #f00;
+}
+
+.inputs:nth-child(2) {
+  background: rgb(0, 202, 61);
+}
+
+.inputs:last-child {
+  background: rgb(0, 81, 255);
+}
+
+#quadrado {
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  background: #333;
+}

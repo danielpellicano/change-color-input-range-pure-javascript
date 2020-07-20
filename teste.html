@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <div class="color-select">
+    <div class="inputs">
+      (R) Vermelho: <input type="range" value="0" min="0" max="255" id="red" oninput="changeRed(this.value)"><input
+        type=" text" id="outputR" value="" disabled />
+    </div>
+    <div class="inputs">
+      (G) Verde: <input type="range" min="0" value="0" max="255" id="verde" oninput="changeGreen(this.value)"><input
+        type="text" id="outputG" value="" disabled />
+    </div>
+    <div class="inputs">
+      (B) Azul: <input type="range" min="0" value="0" max="255" id="azul" oninput="changeBlue(this.value)"><input
+        type="text" id="outputB" value="" disabled />
+    </div>
+
+  </div>
+
+  <div id="quadrado">
+
+  </div>
+
+  <script src="script.js" defer></script>
+
+
+</body>
+
+
+
+</html>
